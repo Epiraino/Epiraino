@@ -10,4 +10,4 @@ A Passionate and Creative Backend Software Engineer
 - ⚡ Fun fact: I love competing in martial arts tournaments.
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Epiraino&theme=tokyonight" alt="mystreak"/>
 <img src="https://github-profile-trophy.vercel.app/?username=Epiraino&theme=juicyfresh&no-bg=true" />
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Epiraino-pattalam&layout=compact)
+
