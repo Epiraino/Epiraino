@@ -10,3 +10,5 @@ A Passionate and Creative Backend Software Engineer
 - ⚡ Fun fact: I love competing in martial arts tournaments.
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Epiraino&theme=tokyonight" alt="mystreak"/>
 <img src="https://github-profile-trophy.vercel.app/?username=Epiraino&theme=juicyfresh&no-bg=true" />
+
+![Snake animation](https://github.com/madushadhanushka/github-readme/blob/output/github-contribution-snake.svg)
