@@ -6,7 +6,7 @@ obtain a position as a Backend Developer for a global company. In my free time I
 
 
 
-- 💻 Currently working on Oweme, a social credit score application for people lending money.
+- 💻 Currently working on Oweme, a social credit score application to facilitate friends lending money to each other and tracking payments.
 - 🌱 I’m currently learning SpringBoot and Backend Development.
 - 💭 Ask me about music production, video games, and jiu jitsu.
 
