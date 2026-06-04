@@ -12,7 +12,7 @@ Full-stack software engineer in defense logistics.
 ## Projects
 
 - **[tarantino-security-site](https://github.com/Epiraino/tarantino-security-site)** — Client site for a physical security company. React, shadcn/ui, Vite.
-- **[raise-lake-hodges](https://github.com/Epiraino/raise-lake-hodges)** — MS capstone: binary wildfire ignition classifier on FPA-FOD + ERA5 weather data. Python, scikit-learn, XGBoost, SHAP.
+- **[raise-lake-hodges](https://github.com/Epiraino/wildfire-capstone-lake-hodges)** — MS capstone: binary wildfire ignition classifier on FPA-FOD + ERA5 weather data. Python, scikit-learn, XGBoost, SHAP.
 - **[dotfiles](https://github.com/Epiraino/dotfiles)** — PowerShell profile, WSL config, machine setup scripts.
 
 ## Contact
