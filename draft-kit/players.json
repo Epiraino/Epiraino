@@ -1,7 +1,7 @@
 {
  "meta": {
   "placeholder": false,
-  "dataAsOf": "2026-09-04T18:13:31Z",
+  "dataAsOf": "2026-09-04T23:34:55Z",
   "scoring": "Full PPR · 6-pt pass TD · 25 pass yds/pt · −1 INT · −2 fum · 5-pt 50+ FG",
   "sources": [
    "FantasyPros/ESPN/Yahoo/Sleeper ADP snapshots (public API datasets, Aug 15–31)",
@@ -9,7 +9,8 @@
    "ESPN/NBC/Yahoo beat news (Aug–Sep 2026)",
    "2026 bye weeks cross-checked identical across two independent pulls",
    "Sept 1-3 news/ADP/practice-report refresh (4-agent sweep, Sept 3)",
-   "Draft-day 2pm refresh: Sept 3-4 practice reports, injury designations, ADP movers (3-agent sweep)"
+   "Draft-day 2pm refresh: Sept 3-4 practice reports, injury designations, ADP movers (3-agent sweep)",
+   "Final 7:30pm draft-night sweep (no material changes; Monangai knee note added)"
   ],
   "discrepancies": [
    "Jauan Jennings team RESOLVED: MIN (signed 1-yr May 2026, left SF)",
@@ -918,7 +919,7 @@
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "Thursday exit was just a cramp (Schefter) — no discount, full go",
+   "note": "Cramp per Schefter, but no official Bears diagnosis yet — and cuff Monangai is week-to-week",
    "rank": 50,
    "posRank": 19,
    "tier": 5,
@@ -1912,9 +1913,9 @@
    "yahooAdp": 107.1,
    "altAdp": 101.1,
    "flags": [],
-   "injury": null,
+   "injury": "knee hyperextension — week-to-week",
    "handcuffOf": "D'Andre Swift",
-   "note": "",
+   "note": "Swift's handcuff is banged up (mid-Aug knee); contingent value cloudy right now",
    "rank": 107,
    "posRank": 36,
    "tier": 8,
