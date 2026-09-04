@@ -385,18 +385,19 @@ details.acc .acc-body { padding: 0 14px 12px; }
 window.DK_DATA = {
  "meta": {
   "placeholder": false,
-  "dataAsOf": "2026-09-01T02:02:44Z",
+  "dataAsOf": "2026-09-04T02:12:03Z",
   "scoring": "Full PPR · 6-pt pass TD · 25 pass yds/pt · −1 INT · −2 fum · 5-pt 50+ FG",
   "sources": [
    "FantasyPros/ESPN/Yahoo/Sleeper ADP snapshots (public API datasets, Aug 15–31)",
    "CBS/SI/PFF/RotoBaller 2026 rankings via web search",
    "ESPN/NBC/Yahoo beat news (Aug–Sep 2026)",
-   "2026 bye weeks cross-checked identical across two independent pulls"
+   "2026 bye weeks cross-checked identical across two independent pulls",
+   "Sept 1-3 news/ADP/practice-report refresh (4-agent sweep, Sept 3)"
   ],
   "discrepancies": [
-   "Jauan Jennings team conflicts across sources (MIN vs SF)",
-   "Direct fantasy-site fetches were proxy-blocked; ADP from API snapshot datasets",
-   "Kicker team changes (Mevis LAR, Pineiro SF, Grupe IND, Loop BAL, Lutz DEN, Santos CHI, McLaughlin TB) re-verified Friday"
+   "Jauan Jennings team RESOLVED: MIN (signed 1-yr May 2026, left SF)",
+   "All 7 flagged kicker team changes verified Sept 3 (one correction: IND is Spencer Shrader, not Grupe)",
+   "Direct fantasy-site fetches proxy-blocked; ADP from API snapshot datasets + Sept 1-3 movers columns"
   ]
  },
  "byes": {
@@ -445,7 +446,7 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "No discount needed; business settled",
+   "note": "Pacheco to IR (back) — no experienced backup; full ground+receiving workload. Lock 1.01",
    "rank": 1,
    "posRank": 1,
    "tier": 1,
@@ -494,9 +495,9 @@ window.DK_DATA = {
    "yahooAdp": 4.9,
    "altAdp": 4.4,
    "flags": [],
-   "injury": "suspension risk - NFL review of assault lawsuit ongoing; avoided exempt list Aug 30",
+   "injury": null,
    "handcuffOf": null,
-   "note": "NFL review of lawsuit ongoing; avoided exempt list Aug 30 — small risk, monitor Fri",
+   "note": "No suspension; avoided exempt list, cleared for the opener — discipline window closing",
    "rank": 4,
    "posRank": 2,
    "tier": 1,
@@ -739,16 +740,16 @@ window.DK_DATA = {
    "team": "LV",
    "pos": "RB",
    "bye": 13,
-   "yahooAdp": 16.5,
+   "yahooAdp": 21.0,
    "altAdp": 14.2,
    "flags": [],
-   "injury": "low-ankle sprain — questionable Wk 1",
+   "injury": "ankle — no full practice yet; likely Wk 1",
    "handcuffOf": null,
-   "note": "Carted Aug 23, no IR; LV counting on him for opener; small discount priced in",
+   "note": "Kubiak 'counting on him' for Sept 13; grab Mike Washington as insurance",
    "rank": 18,
    "posRank": 10,
    "tier": 3,
-   "valueVsAdp": -1.5
+   "valueVsAdp": 3.0
   },
   {
    "id": "kenneth-walker-iii",
@@ -819,6 +820,23 @@ window.DK_DATA = {
    "valueVsAdp": 0
   },
   {
+   "id": "chris-olave",
+   "name": "Chris Olave",
+   "team": "NO",
+   "pos": "WR",
+   "bye": 8,
+   "yahooAdp": 19.0,
+   "altAdp": 30.1,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Unquestioned NO target focal point with Tyson on IR; ADP surged to ~19",
+   "rank": 23,
+   "posRank": 10,
+   "tier": 3,
+   "valueVsAdp": -4.0
+  },
+  {
    "id": "brock-bowers",
    "name": "Brock Bowers",
    "team": "LV",
@@ -830,10 +848,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "No discount needed; draft as an elite TE",
-   "rank": 23,
+   "rank": 24,
    "posRank": 1,
    "tier": 3,
-   "valueVsAdp": -1.9
+   "valueVsAdp": -2.9
   },
   {
    "id": "trey-mcbride",
@@ -847,10 +865,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 24,
+   "rank": 25,
    "posRank": 2,
-   "tier": 3,
-   "valueVsAdp": 2.5
+   "tier": 4,
+   "valueVsAdp": 1.5
   },
   {
    "id": "george-pickens",
@@ -864,27 +882,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 25,
-   "posRank": 10,
-   "tier": 4,
-   "valueVsAdp": -2.5
-  },
-  {
-   "id": "chris-olave",
-   "name": "Chris Olave",
-   "team": "NO",
-   "pos": "WR",
-   "bye": 8,
-   "yahooAdp": 32,
-   "altAdp": 30.1,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "",
    "rank": 26,
    "posRank": 11,
    "tier": 4,
-   "valueVsAdp": 6
+   "valueVsAdp": -3.5
   },
   {
    "id": "malik-nabers",
@@ -900,7 +901,7 @@ window.DK_DATA = {
    ],
    "injury": null,
    "handcuffOf": null,
-   "note": "2025 ACL + spring cleanup; trending Wk 1 but sources split hard on price",
+   "note": "Full team drills Wed off the '25 ACL — trending Wk 1; sources still split on price",
    "rank": 27,
    "posRank": 12,
    "tier": 4,
@@ -951,7 +952,7 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "Cleared: knee fine, jail served, no suspension expected; KC WR1",
+   "note": "NFL found no conduct violation (April); knee fine — KC WR1, no discount",
    "rank": 30,
    "posRank": 14,
    "tier": 4,
@@ -983,9 +984,9 @@ window.DK_DATA = {
    "yahooAdp": 34.9,
    "altAdp": 34.1,
    "flags": [],
-   "injury": "groin strain — expected Wk 1 vs TEN",
+   "injury": "groin — on schedule, expected Wk 1",
    "handcuffOf": null,
-   "note": "Jets say weeks not months; minor discount",
+   "note": "Timeline expired this week; running/agility without setback",
    "rank": 32,
    "posRank": 14,
    "tier": 4,
@@ -1022,7 +1023,7 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "",
+   "note": "Quad — returned to practice Thu Sept 3, ready for Wk 1",
    "rank": 34,
    "posRank": 15,
    "tier": 4,
@@ -1117,6 +1118,23 @@ window.DK_DATA = {
    "valueVsAdp": 9.9
   },
   {
+   "id": "travis-etienne-jr",
+   "name": "Travis Etienne Jr.",
+   "team": "NO",
+   "pos": "RB",
+   "bye": 8,
+   "yahooAdp": 42.5,
+   "altAdp": 44.3,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Full early-season workload with Kamara (MCL) out ~a month; rested + healthy",
+   "rank": 40,
+   "posRank": 17,
+   "tier": 4,
+   "valueVsAdp": 2.5
+  },
+  {
    "id": "colston-loveland",
    "name": "Colston Loveland",
    "team": "CHI",
@@ -1128,10 +1146,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 40,
+   "rank": 41,
    "posRank": 3,
-   "tier": 4,
-   "valueVsAdp": -0.5
+   "tier": 5,
+   "valueVsAdp": -1.5
   },
   {
    "id": "joe-burrow",
@@ -1145,10 +1163,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "6pt TD: ~385 pts, 33 proj TDs; healthy, full camp",
-   "rank": 41,
+   "rank": 42,
    "posRank": 4,
    "tier": 5,
-   "valueVsAdp": 9
+   "valueVsAdp": 8
   },
   {
    "id": "ladd-mcconkey",
@@ -1162,10 +1180,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 42,
+   "rank": 43,
    "posRank": 19,
    "tier": 5,
-   "valueVsAdp": 2.8
+   "valueVsAdp": 1.8
   },
   {
    "id": "emeka-egbuka",
@@ -1179,10 +1197,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 43,
+   "rank": 44,
    "posRank": 20,
    "tier": 5,
-   "valueVsAdp": 1.9
+   "valueVsAdp": 0.9
   },
   {
    "id": "jaylen-waddle",
@@ -1196,27 +1214,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Traded to DEN for 1st+3rd; Bo Nix's featured target, breakout pick",
-   "rank": 44,
+   "rank": 45,
    "posRank": 21,
    "tier": 5,
-   "valueVsAdp": -3.3
-  },
-  {
-   "id": "travis-etienne-jr",
-   "name": "Travis Etienne Jr.",
-   "team": "NO",
-   "pos": "RB",
-   "bye": 8,
-   "yahooAdp": 42.5,
-   "altAdp": 44.3,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "Signed 4yr/$52M w/ NO but committee w/ Kamara — reset expectations",
-   "rank": 45,
-   "posRank": 17,
-   "tier": 5,
-   "valueVsAdp": -2.5
+   "valueVsAdp": -4.3
   },
   {
    "id": "cam-skattebo",
@@ -1247,9 +1248,9 @@ window.DK_DATA = {
    "yahooAdp": 47.2,
    "altAdp": 49.7,
    "flags": [],
-   "injury": "mild groin strain — expected Wk 1",
+   "injury": null,
    "handcuffOf": null,
-   "note": "Confirm he practices this week; top-4 TE",
+   "note": "Full practice Tue Sept 1 — groin resolved, ready for Wk 1",
    "rank": 47,
    "posRank": 4,
    "tier": 5,
@@ -1298,9 +1299,9 @@ window.DK_DATA = {
    "yahooAdp": 46.4,
    "altAdp": 52.6,
    "flags": [],
-   "injury": null,
+   "injury": "cramp Thu — likely nothing",
    "handcuffOf": null,
-   "note": "",
+   "note": "Left Thursday practice; re-check Friday morning",
    "rank": 50,
    "posRank": 19,
    "tier": 5,
@@ -1460,9 +1461,9 @@ window.DK_DATA = {
    "yahooAdp": 66.8,
    "altAdp": 64.1,
    "flags": [],
-   "injury": null,
+   "injury": "right-leg issue Thu — 'should be all good'",
    "handcuffOf": null,
-   "note": "",
+   "note": "Exited Thursday practice; re-check Friday before drafting",
    "rank": 59,
    "posRank": 27,
    "tier": 6,
@@ -1479,28 +1480,11 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "Won JAX lead-back job; Coen expects 'a big year'; Rodriguez takes goal line",
+   "note": "Listed co-starter with Rodriguez on first depth chart; Tuten has the PPR juice",
    "rank": 60,
    "posRank": 23,
    "tier": 6,
    "valueVsAdp": 2.2
-  },
-  {
-   "id": "treveyon-henderson",
-   "name": "TreVeyon Henderson",
-   "team": "NE",
-   "pos": "RB",
-   "bye": 11,
-   "yahooAdp": 65.5,
-   "altAdp": 57.2,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": "Rhamondre Stevenson",
-   "note": "",
-   "rank": 61,
-   "posRank": 24,
-   "tier": 6,
-   "valueVsAdp": 4.5
   },
   {
    "id": "mike-evans",
@@ -1511,13 +1495,13 @@ window.DK_DATA = {
    "yahooAdp": 68.5,
    "altAdp": 62.4,
    "flags": [],
-   "injury": null,
+   "injury": "groin — returned Wed, plans to play Wk 1",
    "handcuffOf": null,
-   "note": "Signed w/ SF; top Niners WR with Aiyuk/Pearsall both out",
-   "rank": 62,
+   "note": "Missed most of camp; mild early-season risk at market cost",
+   "rank": 61,
    "posRank": 28,
    "tier": 6,
-   "valueVsAdp": 6.5
+   "valueVsAdp": 7.5
   },
   {
    "id": "jadarian-price",
@@ -1533,10 +1517,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Rookie 1st-rounder set to lead SEA backfield while Charbonnet on PUP",
-   "rank": 63,
-   "posRank": 25,
+   "rank": 62,
+   "posRank": 24,
    "tier": 6,
-   "valueVsAdp": 2
+   "valueVsAdp": 3
   },
   {
    "id": "christian-watson",
@@ -1550,10 +1534,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 64,
+   "rank": 63,
    "posRank": 29,
    "tier": 6,
-   "valueVsAdp": 3.9
+   "valueVsAdp": 4.9
   },
   {
    "id": "caleb-williams",
@@ -1567,10 +1551,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "6pt TD: ~362 pts in ascending CHI offense",
-   "rank": 65,
+   "rank": 64,
    "posRank": 7,
    "tier": 6,
-   "valueVsAdp": 2.3
+   "valueVsAdp": 3.3
   },
   {
    "id": "sam-laporta",
@@ -1583,11 +1567,11 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "",
-   "rank": 66,
+   "note": "Hip — back in team drills without limits Sept 1, on track for Wk 1",
+   "rank": 65,
    "posRank": 5,
    "tier": 6,
-   "valueVsAdp": -2.8
+   "valueVsAdp": -1.8
   },
   {
    "id": "harold-fannin-jr",
@@ -1604,10 +1588,27 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "TE6 at ADP 67 in a weak CLE offense — pay for it only if TE run forces you",
-   "rank": 67,
+   "rank": 66,
    "posRank": 6,
    "tier": 6,
-   "valueVsAdp": 4.1
+   "valueVsAdp": 5.1
+  },
+  {
+   "id": "treveyon-henderson",
+   "name": "TreVeyon Henderson",
+   "team": "NE",
+   "pos": "RB",
+   "bye": 11,
+   "yahooAdp": 72.0,
+   "altAdp": 57.2,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": "Rhamondre Stevenson",
+   "note": "Faller: Stevenson winning the NE backfield on efficiency — price as committee",
+   "rank": 67,
+   "posRank": 25,
+   "tier": 6,
+   "valueVsAdp": 5.0
   },
   {
    "id": "tucker-kraft",
@@ -1678,6 +1679,40 @@ window.DK_DATA = {
    "valueVsAdp": 1.4
   },
   {
+   "id": "rhamondre-stevenson",
+   "name": "Rhamondre Stevenson",
+   "team": "NE",
+   "pos": "RB",
+   "bye": 11,
+   "yahooAdp": 78.9,
+   "altAdp": 80.7,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Winning the NE backfield battle per camp reports; better value than Henderson",
+   "rank": 72,
+   "posRank": 26,
+   "tier": 7,
+   "valueVsAdp": 6.9
+  },
+  {
+   "id": "jaylen-warren",
+   "name": "Jaylen Warren",
+   "team": "PIT",
+   "pos": "RB",
+   "bye": 9,
+   "yahooAdp": 76.7,
+   "altAdp": 71.8,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Kaleb Johnson trade clears the PIT room — only Dowdle behind him",
+   "rank": 73,
+   "posRank": 27,
+   "tier": 7,
+   "valueVsAdp": 3.7
+  },
+  {
    "id": "justin-herbert",
    "name": "Justin Herbert",
    "team": "LAC",
@@ -1689,10 +1724,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "6pt TD: ~359 pts; McDaniel's new LAC offense",
-   "rank": 72,
+   "rank": 74,
    "posRank": 9,
    "tier": 7,
-   "valueVsAdp": -1.8
+   "valueVsAdp": -3.8
   },
   {
    "id": "carnell-tate",
@@ -1708,27 +1743,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "2026 rookie; top target for Cam Ward in TEN",
-   "rank": 73,
+   "rank": 75,
    "posRank": 31,
    "tier": 7,
-   "valueVsAdp": 8
-  },
-  {
-   "id": "jaylen-warren",
-   "name": "Jaylen Warren",
-   "team": "PIT",
-   "pos": "RB",
-   "bye": 9,
-   "yahooAdp": 76.7,
-   "altAdp": 71.8,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "",
-   "rank": 74,
-   "posRank": 26,
-   "tier": 7,
-   "valueVsAdp": 2.7
+   "valueVsAdp": 6
   },
   {
    "id": "marvin-harrison-jr",
@@ -1742,27 +1760,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 75,
+   "rank": 76,
    "posRank": 32,
    "tier": 7,
-   "valueVsAdp": 3.5
-  },
-  {
-   "id": "rhamondre-stevenson",
-   "name": "Rhamondre Stevenson",
-   "team": "NE",
-   "pos": "RB",
-   "bye": 11,
-   "yahooAdp": 78.9,
-   "altAdp": 80.7,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "",
-   "rank": 76,
-   "posRank": 27,
-   "tier": 7,
-   "valueVsAdp": 2.9
+   "valueVsAdp": 2.5
   },
   {
    "id": "trevor-lawrence",
@@ -1804,16 +1805,16 @@ window.DK_DATA = {
    "team": "GB",
    "pos": "RB",
    "bye": 11,
-   "yahooAdp": 121.4,
+   "yahooAdp": 111.0,
    "altAdp": 157.8,
    "flags": [],
    "injury": "won lead job - GB starter Wk 1 with Jacobs out",
    "handcuffOf": "Josh Jacobs",
-   "note": "GB starter Wk1 w/ Jacobs out; market moved to ~pick 70; 1 career game — upside bet",
+   "note": "Confirmed GB Wk-1 starter with Jacobs out; market still lags this board — take the value",
    "rank": 79,
    "posRank": 28,
    "tier": 7,
-   "valueVsAdp": 42.4
+   "valueVsAdp": 32.0
   },
   {
    "id": "brian-thomas-jr",
@@ -1855,33 +1856,33 @@ window.DK_DATA = {
    "team": "CAR",
    "pos": "RB",
    "bye": 5,
-   "yahooAdp": 88.9,
+   "yahooAdp": 75.2,
    "altAdp": 78.1,
    "flags": [],
-   "injury": "hamstring — expected Wk 1",
+   "injury": null,
    "handcuffOf": null,
-   "note": "Zero preseason snaps; committee w/ Brooks either way",
+   "note": "Back at practice Sept 1, expected Wk 1 — but opens in a committee with Brooks",
    "rank": 82,
    "posRank": 30,
    "tier": 7,
-   "valueVsAdp": 6.9
+   "valueVsAdp": -6.8
   },
   {
-   "id": "george-kittle",
-   "name": "George Kittle",
-   "team": "SF",
-   "pos": "TE",
-   "bye": 8,
-   "yahooAdp": 84.2,
-   "altAdp": 83.2,
+   "id": "michael-wilson",
+   "name": "Michael Wilson",
+   "team": "ARI",
+   "pos": "WR",
+   "bye": 14,
+   "yahooAdp": 101.4,
+   "altAdp": 85.9,
    "flags": [],
-   "injury": "activated off PUP Aug 23 - expected to play Wk 1",
+   "injury": null,
    "handcuffOf": null,
-   "note": "Off PUP Aug 23, expected Wk 1; Evans arrival eases coverage",
+   "note": "Signed 3yr/$75M extension Sept 3 — featured-role commitment",
    "rank": 83,
-   "posRank": 9,
+   "posRank": 35,
    "tier": 7,
-   "valueVsAdp": 1.2
+   "valueVsAdp": 18.4
   },
   {
    "id": "matthew-stafford",
@@ -1913,9 +1914,28 @@ window.DK_DATA = {
    "handcuffOf": null,
    "note": "",
    "rank": 85,
-   "posRank": 35,
+   "posRank": 36,
    "tier": 7,
    "valueVsAdp": 19.8
+  },
+  {
+   "id": "jonathon-brooks",
+   "name": "Jonathon Brooks",
+   "team": "CAR",
+   "pos": "RB",
+   "bye": 5,
+   "yahooAdp": 76.0,
+   "altAdp": 104.1,
+   "flags": [
+    "sleeper"
+   ],
+   "injury": null,
+   "handcuffOf": "Chuba Hubbard",
+   "note": "ADP surging (~104→76); pushing Hubbard for lead work, fully healthy off 2 ACLs",
+   "rank": 86,
+   "posRank": 31,
+   "tier": 7,
+   "valueVsAdp": -10.0
   },
   {
    "id": "rico-dowdle",
@@ -1929,10 +1949,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Jaylen Warren",
    "note": "Signed 2-yr w/ PIT",
-   "rank": 86,
-   "posRank": 31,
+   "rank": 87,
+   "posRank": 32,
    "tier": 7,
-   "valueVsAdp": 1
+   "valueVsAdp": 0
   },
   {
    "id": "alec-pierce",
@@ -1948,27 +1968,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 87,
-   "posRank": 36,
-   "tier": 7,
-   "valueVsAdp": 8.2
-  },
-  {
-   "id": "michael-wilson",
-   "name": "Michael Wilson",
-   "team": "ARI",
-   "pos": "WR",
-   "bye": 14,
-   "yahooAdp": 101.4,
-   "altAdp": 85.9,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "",
    "rank": 88,
    "posRank": 37,
    "tier": 7,
-   "valueVsAdp": 13.4
+   "valueVsAdp": 7.2
   },
   {
    "id": "chris-godwin-jr",
@@ -1988,6 +1991,23 @@ window.DK_DATA = {
    "valueVsAdp": 7.6
   },
   {
+   "id": "george-kittle",
+   "name": "George Kittle",
+   "team": "SF",
+   "pos": "TE",
+   "bye": 8,
+   "yahooAdp": 84.2,
+   "altAdp": 83.2,
+   "flags": [],
+   "injury": "Achilles rehab — Wk 1 game-time call",
+   "handcuffOf": null,
+   "note": "Off PUP, two good practices, making the Melbourne trip; have a TE streamer ready",
+   "rank": 90,
+   "posRank": 9,
+   "tier": 7,
+   "valueVsAdp": -5.8
+  },
+  {
    "id": "travis-kelce",
    "name": "Travis Kelce",
    "team": "KC",
@@ -2002,10 +2022,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Age + shrinking role; worst TE value at ADP ~96",
-   "rank": 90,
+   "rank": 91,
    "posRank": 10,
-   "tier": 7,
-   "valueVsAdp": 4.4
+   "tier": 8,
+   "valueVsAdp": 3.4
   },
   {
    "id": "brock-purdy",
@@ -2019,10 +2039,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "6pt TD: ~354 pts; SI calls him most underrated in 6-pt formats",
-   "rank": 91,
+   "rank": 92,
    "posRank": 12,
    "tier": 8,
-   "valueVsAdp": 7.4
+   "valueVsAdp": 6.4
   },
   {
    "id": "j-k-dobbins",
@@ -2036,10 +2056,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 92,
-   "posRank": 32,
+   "rank": 93,
+   "posRank": 33,
    "tier": 8,
-   "valueVsAdp": 3.3
+   "valueVsAdp": 2.3
   },
   {
    "id": "jaxson-dart",
@@ -2055,29 +2075,27 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Most overvalued QB by rank-vs-ADP; rushing-led production, concussion history",
-   "rank": 93,
+   "rank": 94,
    "posRank": 13,
    "tier": 8,
-   "valueVsAdp": -2.4
+   "valueVsAdp": -3.4
   },
   {
-   "id": "jonathon-brooks",
-   "name": "Jonathon Brooks",
-   "team": "CAR",
-   "pos": "RB",
-   "bye": 5,
-   "yahooAdp": 93.4,
-   "altAdp": 104.1,
-   "flags": [
-    "sleeper"
-   ],
+   "id": "stefon-diggs",
+   "name": "Stefon Diggs",
+   "team": "WAS",
+   "pos": "WR",
+   "bye": 7,
+   "yahooAdp": 98.0,
+   "altAdp": 107.9,
+   "flags": [],
    "injury": null,
-   "handcuffOf": "Chuba Hubbard",
-   "note": "Fully healthy off 2 ACLs; started both preseason games; near-even split w/ Hubbard",
-   "rank": 94,
-   "posRank": 33,
+   "handcuffOf": null,
+   "note": "Top weekly riser — delayed payoff of the WAS signing; McLaurin running mate",
+   "rank": 95,
+   "posRank": 39,
    "tier": 8,
-   "valueVsAdp": -0.6
+   "valueVsAdp": 3.0
   },
   {
    "id": "makai-lemon",
@@ -2093,10 +2111,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Late-round upside pick in a suddenly open Eagles receiver room",
-   "rank": 95,
-   "posRank": 39,
+   "rank": 96,
+   "posRank": 40,
    "tier": 8,
-   "valueVsAdp": 20.3
+   "valueVsAdp": 19.3
   },
   {
    "id": "bo-nix",
@@ -2110,10 +2128,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 96,
+   "rank": 97,
    "posRank": 14,
    "tier": 8,
-   "valueVsAdp": 3.1
+   "valueVsAdp": 2.1
   },
   {
    "id": "patrick-mahomes",
@@ -2127,10 +2145,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "6pt TD: ~354 pts; Rice cleared + Worthy healthy",
-   "rank": 97,
+   "rank": 98,
    "posRank": 15,
    "tier": 8,
-   "valueVsAdp": 5
+   "valueVsAdp": 4
   },
   {
    "id": "michael-pittman-jr",
@@ -2144,10 +2162,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Traded IND->PIT 2026",
-   "rank": 98,
-   "posRank": 40,
+   "rank": 99,
+   "posRank": 41,
    "tier": 8,
-   "valueVsAdp": 22.4
+   "valueVsAdp": 21.4
   },
   {
    "id": "rj-harvey",
@@ -2161,44 +2179,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "J.K. Dobbins",
    "note": "",
-   "rank": 99,
+   "rank": 100,
    "posRank": 34,
    "tier": 8,
-   "valueVsAdp": 7.7
-  },
-  {
-   "id": "josh-downs",
-   "name": "Josh Downs",
-   "team": "IND",
-   "pos": "WR",
-   "bye": 13,
-   "yahooAdp": 107.7,
-   "altAdp": 112.4,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "Minor calf/groin, fine for Wk 1; PPR slot value w/ Pierce sidelined",
-   "rank": 100,
-   "posRank": 41,
-   "tier": 8,
-   "valueVsAdp": 7.7
-  },
-  {
-   "id": "stefon-diggs",
-   "name": "Stefon Diggs",
-   "team": "WAS",
-   "pos": "WR",
-   "bye": 7,
-   "yahooAdp": 104.7,
-   "altAdp": 107.9,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "Signed w/ WAS Aug 2026; McLaurin running mate",
-   "rank": 101,
-   "posRank": 42,
-   "tier": 8,
-   "valueVsAdp": 3.7
+   "valueVsAdp": 6.7
   },
   {
    "id": "dalton-kincaid",
@@ -2212,10 +2196,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 102,
+   "rank": 101,
    "posRank": 11,
    "tier": 8,
-   "valueVsAdp": -3.9
+   "valueVsAdp": -2.9
   },
   {
    "id": "jordan-addison",
@@ -2229,10 +2213,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 103,
-   "posRank": 43,
+   "rank": 102,
+   "posRank": 42,
    "tier": 8,
-   "valueVsAdp": 13
+   "valueVsAdp": 14
   },
   {
    "id": "dallas-goedert",
@@ -2246,10 +2230,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 104,
+   "rank": 103,
    "posRank": 12,
    "tier": 8,
-   "valueVsAdp": 1.7
+   "valueVsAdp": 2.7
   },
   {
    "id": "blake-corum",
@@ -2263,10 +2247,27 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Kyren Williams",
    "note": "",
-   "rank": 105,
+   "rank": 104,
    "posRank": 35,
    "tier": 8,
-   "valueVsAdp": -5.6
+   "valueVsAdp": -4.6
+  },
+  {
+   "id": "josh-downs",
+   "name": "Josh Downs",
+   "team": "IND",
+   "pos": "WR",
+   "bye": 13,
+   "yahooAdp": 96.5,
+   "altAdp": 112.4,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Keenan Allen signing crowds the slot-target thesis; modest fade",
+   "rank": 105,
+   "posRank": 43,
+   "tier": 8,
+   "valueVsAdp": -8.5
   },
   {
    "id": "quentin-johnston",
@@ -2303,6 +2304,25 @@ window.DK_DATA = {
    "valueVsAdp": 0.1
   },
   {
+   "id": "de-zhaun-stribling",
+   "name": "De'Zhaun Stribling",
+   "team": "SF",
+   "pos": "WR",
+   "bye": 8,
+   "yahooAdp": 112.0,
+   "altAdp": 137.3,
+   "flags": [
+    "rookie"
+   ],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "One of Yahoo's biggest preseason risers (+40); SF rookie with Aiyuk/Pearsall out",
+   "rank": 108,
+   "posRank": 45,
+   "tier": 8,
+   "valueVsAdp": 4.0
+  },
+  {
    "id": "jared-goff",
    "name": "Jared Goff",
    "team": "DET",
@@ -2314,10 +2334,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "6pt TD: ~359 pts, 32 proj TDs; fine late QB1",
-   "rank": 108,
+   "rank": 109,
    "posRank": 16,
    "tier": 8,
-   "valueVsAdp": 6.1
+   "valueVsAdp": 5.1
   },
   {
    "id": "jacory-croskey-merritt",
@@ -2331,10 +2351,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 109,
+   "rank": 110,
    "posRank": 37,
    "tier": 8,
-   "valueVsAdp": -1.2
+   "valueVsAdp": -2.2
   },
   {
    "id": "kyler-murray",
@@ -2350,10 +2370,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Released by ARI, won MIN job; rush floor + Jefferson; QB18 price",
-   "rank": 110,
+   "rank": 111,
    "posRank": 17,
    "tier": 8,
-   "valueVsAdp": 2.4
+   "valueVsAdp": 1.4
   },
   {
    "id": "isaiah-likely",
@@ -2369,10 +2389,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Data shows NYG in 2026 (was BAL)",
-   "rank": 111,
+   "rank": 112,
    "posRank": 13,
    "tier": 8,
-   "valueVsAdp": -1.6
+   "valueVsAdp": -2.6
   },
   {
    "id": "jayden-reed",
@@ -2388,10 +2408,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 112,
-   "posRank": 45,
-   "tier": 8,
-   "valueVsAdp": 5.8
+   "rank": 113,
+   "posRank": 46,
+   "tier": 9,
+   "valueVsAdp": 4.8
   },
   {
    "id": "josh-jacobs",
@@ -2399,18 +2419,18 @@ window.DK_DATA = {
    "team": "GB",
    "pos": "RB",
    "bye": 11,
-   "yahooAdp": 36.3,
+   "yahooAdp": 95.0,
    "altAdp": 35.9,
    "flags": [
     "bust"
    ],
    "injury": "EXEMPT LIST — out indefinitely",
    "handcuffOf": null,
-   "note": "DV charges, court ~Wk11; ADP crashed 36→87; stash only, pivot to Lloyd",
-   "rank": 113,
+   "note": "Exempt list confirmed, ~6-game projections; ADP crashed to ~95 — stash only",
+   "rank": 114,
    "posRank": 38,
    "tier": 9,
-   "valueVsAdp": -76.7
+   "valueVsAdp": -19.0
   },
   {
    "id": "jake-ferguson",
@@ -2424,10 +2444,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 114,
+   "rank": 115,
    "posRank": 14,
    "tier": 9,
-   "valueVsAdp": 2.6
+   "valueVsAdp": 1.6
   },
   {
    "id": "kenny-gainwell",
@@ -2441,29 +2461,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Data shows TB in 2026 (was PIT)",
-   "rank": 115,
+   "rank": 116,
    "posRank": 39,
    "tier": 9,
-   "valueVsAdp": 4.2
-  },
-  {
-   "id": "de-zhaun-stribling",
-   "name": "De'Zhaun Stribling",
-   "team": "SF",
-   "pos": "WR",
-   "bye": 8,
-   "yahooAdp": 109.3,
-   "altAdp": 137.3,
-   "flags": [
-    "rookie"
-   ],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "2026 rookie WR (SF)",
-   "rank": 116,
-   "posRank": 46,
-   "tier": 9,
-   "valueVsAdp": -6.7
+   "valueVsAdp": 3.2
   },
   {
    "id": "aaron-jones-sr",
@@ -2519,6 +2520,23 @@ window.DK_DATA = {
    "valueVsAdp": -5.8
   },
   {
+   "id": "mike-washington",
+   "name": "Mike Washington",
+   "team": "LV",
+   "pos": "RB",
+   "bye": 13,
+   "yahooAdp": 123.0,
+   "altAdp": 158.9,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": "Ashton Jeanty",
+   "note": "Camp breakout running with LV first team while Jeanty rehabs — priority handcuff",
+   "rank": 120,
+   "posRank": 42,
+   "tier": 9,
+   "valueVsAdp": 3.0
+  },
+  {
    "id": "rachaad-white",
    "name": "Rachaad White",
    "team": "WAS",
@@ -2530,10 +2548,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Jacory Croskey-Merritt",
    "note": "Data shows WAS in 2026 (was TB)",
-   "rank": 120,
-   "posRank": 42,
+   "rank": 121,
+   "posRank": 43,
    "tier": 9,
-   "valueVsAdp": 3.4
+   "valueVsAdp": 2.4
   },
   {
    "id": "matthew-golden",
@@ -2547,10 +2565,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 121,
+   "rank": 122,
    "posRank": 47,
    "tier": 9,
-   "valueVsAdp": 5.7
+   "valueVsAdp": 4.7
   },
   {
    "id": "kc-concepcion",
@@ -2566,10 +2584,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "2026 rookie WR (CLE)",
-   "rank": 122,
+   "rank": 123,
    "posRank": 48,
    "tier": 9,
-   "valueVsAdp": 3.1
+   "valueVsAdp": 2.1
   },
   {
    "id": "wan-dale-robinson",
@@ -2583,10 +2601,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Data shows TEN in 2026 (was NYG)",
-   "rank": 123,
+   "rank": 124,
    "posRank": 49,
    "tier": 9,
-   "valueVsAdp": 7.6
+   "valueVsAdp": 6.6
   },
   {
    "id": "jakobi-meyers",
@@ -2600,10 +2618,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Signed w/ JAX (from LV)",
-   "rank": 124,
+   "rank": 125,
    "posRank": 50,
    "tier": 9,
-   "valueVsAdp": 5.9
+   "valueVsAdp": 4.9
   },
   {
    "id": "jordan-love",
@@ -2617,10 +2635,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 125,
+   "rank": 126,
    "posRank": 18,
    "tier": 9,
-   "valueVsAdp": -1.6
+   "valueVsAdp": -2.6
   },
   {
    "id": "xavier-worthy",
@@ -2636,10 +2654,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 126,
+   "rank": 127,
    "posRank": 51,
    "tier": 9,
-   "valueVsAdp": 3.1
+   "valueVsAdp": 2.1
   },
   {
    "id": "baker-mayfield",
@@ -2653,10 +2671,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 127,
+   "rank": 128,
    "posRank": 19,
    "tier": 9,
-   "valueVsAdp": -1.1
+   "valueVsAdp": -2.1
   },
   {
    "id": "juwan-johnson",
@@ -2670,10 +2688,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 128,
+   "rank": 129,
    "posRank": 16,
    "tier": 9,
-   "valueVsAdp": -3
+   "valueVsAdp": -4
   },
   {
    "id": "khalil-shakir",
@@ -2687,10 +2705,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 129,
+   "rank": 130,
    "posRank": 52,
    "tier": 9,
-   "valueVsAdp": 2
+   "valueVsAdp": 1
   },
   {
    "id": "deebo-samuel",
@@ -2704,10 +2722,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Back to SF on 1-yr deal",
-   "rank": 130,
+   "rank": 131,
    "posRank": 53,
    "tier": 9,
-   "valueVsAdp": -2.8
+   "valueVsAdp": -3.8
   },
   {
    "id": "romeo-doubs",
@@ -2721,10 +2739,27 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Data shows NE in 2026 (was GB)",
-   "rank": 131,
+   "rank": 132,
    "posRank": 54,
    "tier": 9,
-   "valueVsAdp": 1
+   "valueVsAdp": 0
+  },
+  {
+   "id": "keenan-allen",
+   "name": "Keenan Allen",
+   "team": "IND",
+   "pos": "WR",
+   "bye": 13,
+   "yahooAdp": 135.0,
+   "altAdp": 197.8,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Steichen reunion keeps lifting him; cuts into Downs' target share",
+   "rank": 133,
+   "posRank": 55,
+   "tier": 9,
+   "valueVsAdp": 2.0
   },
   {
    "id": "travis-hunter",
@@ -2738,27 +2773,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 132,
-   "posRank": 55,
+   "rank": 134,
+   "posRank": 56,
    "tier": 9,
-   "valueVsAdp": -6.3
-  },
-  {
-   "id": "mike-washington",
-   "name": "Mike Washington",
-   "team": "LV",
-   "pos": "RB",
-   "bye": 13,
-   "yahooAdp": 122.8,
-   "altAdp": 158.9,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": "Ashton Jeanty",
-   "note": "",
-   "rank": 133,
-   "posRank": 43,
-   "tier": 9,
-   "valueVsAdp": -10.2
+   "valueVsAdp": -8.3
   },
   {
    "id": "rashid-shaheed",
@@ -2774,10 +2792,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Signed 3yr/$51M w/ SEA (from NO)",
-   "rank": 134,
-   "posRank": 56,
+   "rank": 135,
+   "posRank": 57,
    "tier": 9,
-   "valueVsAdp": -5.6
+   "valueVsAdp": -6.6
   },
   {
    "id": "sam-darnold",
@@ -2791,10 +2809,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "SEA starter; Shaheed + JSN give him weapons",
-   "rank": 135,
+   "rank": 136,
    "posRank": 20,
    "tier": 9,
-   "valueVsAdp": -12.4
+   "valueVsAdp": -13.4
   },
   {
    "id": "jalen-coker",
@@ -2810,10 +2828,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 136,
-   "posRank": 57,
+   "rank": 137,
+   "posRank": 58,
    "tier": 9,
-   "valueVsAdp": -2.8
+   "valueVsAdp": -3.8
   },
   {
    "id": "zach-charbonnet",
@@ -2827,10 +2845,10 @@ window.DK_DATA = {
    "injury": "PUP — out at least first 4 games",
    "handcuffOf": null,
    "note": "Jan ACL tear, 8-10mo prognosis; late stash at most",
-   "rank": 137,
+   "rank": 138,
    "posRank": 44,
    "tier": 9,
-   "valueVsAdp": -6.8
+   "valueVsAdp": -7.8
   },
   {
    "id": "woody-marks",
@@ -2844,10 +2862,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "David Montgomery",
    "note": "",
-   "rank": 138,
+   "rank": 139,
    "posRank": 45,
-   "tier": 9,
-   "valueVsAdp": -7.3
+   "tier": 10,
+   "valueVsAdp": -8.3
   },
   {
    "id": "hunter-henry",
@@ -2861,10 +2879,27 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 139,
+   "rank": 140,
    "posRank": 17,
    "tier": 10,
-   "valueVsAdp": -11.5
+   "valueVsAdp": -12.5
+  },
+  {
+   "id": "dalton-schultz",
+   "name": "Dalton Schultz",
+   "team": "HOU",
+   "pos": "TE",
+   "bye": 8,
+   "yahooAdp": 141.0,
+   "altAdp": 188.8,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Volume bump coming with Higgins out + Noel limited; 85+ targets 5 straight yrs",
+   "rank": 141,
+   "posRank": 18,
+   "tier": 10,
+   "valueVsAdp": 0.0
   },
   {
    "id": "brian-robinson",
@@ -2878,27 +2913,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Bijan Robinson",
    "note": "",
-   "rank": 140,
+   "rank": 142,
    "posRank": 46,
    "tier": 10,
-   "valueVsAdp": -20.4
-  },
-  {
-   "id": "keenan-allen",
-   "name": "Keenan Allen",
-   "team": "IND",
-   "pos": "WR",
-   "bye": 13,
-   "yahooAdp": 125.8,
-   "altAdp": 197.8,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "Signed 1-yr w/ IND Aug 17, 2026",
-   "rank": 141,
-   "posRank": 58,
-   "tier": 10,
-   "valueVsAdp": -15.2
+   "valueVsAdp": -22.4
   },
   {
    "id": "chris-rodriguez",
@@ -2914,10 +2932,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Bhayshul Tuten",
    "note": "",
-   "rank": 142,
+   "rank": 143,
    "posRank": 47,
    "tier": 10,
-   "valueVsAdp": -10.9
+   "valueVsAdp": -11.9
   },
   {
    "id": "jordyn-tyson",
@@ -2925,18 +2943,18 @@ window.DK_DATA = {
    "team": "NO",
    "pos": "WR",
    "bye": 8,
-   "yahooAdp": 98,
+   "yahooAdp": 130.0,
    "altAdp": 98,
    "flags": [
     "rookie"
    ],
-   "injury": "IR (hamstring) — out ~8 wks",
+   "injury": "IR (hamstring) — earliest return Wk 5",
    "handcuffOf": null,
-   "note": "No. 8 pick, elite speed; misses 4+ games — late stash only",
-   "rank": 143,
+   "note": "Biggest WR ADP faller; IR-slot stash only",
+   "rank": 144,
    "posRank": 59,
    "tier": 10,
-   "valueVsAdp": -45
+   "valueVsAdp": -14.0
   },
   {
    "id": "tyler-allgeier",
@@ -2950,27 +2968,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Jeremiyah Love",
    "note": "",
-   "rank": 144,
+   "rank": 145,
    "posRank": 48,
    "tier": 10,
-   "valueVsAdp": -14
-  },
-  {
-   "id": "alvin-kamara",
-   "name": "Alvin Kamara",
-   "team": "NO",
-   "pos": "RB",
-   "bye": 8,
-   "yahooAdp": 125.9,
-   "altAdp": 166.3,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": "Travis Etienne Jr.",
-   "note": "",
-   "rank": 145,
-   "posRank": 49,
-   "tier": 10,
-   "valueVsAdp": -19.1
+   "valueVsAdp": -15
   },
   {
    "id": "brenton-strange",
@@ -2987,7 +2988,7 @@ window.DK_DATA = {
    "handcuffOf": null,
    "note": "",
    "rank": 146,
-   "posRank": 18,
+   "posRank": 19,
    "tier": 10,
    "valueVsAdp": -16.9
   },
@@ -3004,7 +3005,7 @@ window.DK_DATA = {
    "handcuffOf": "Tony Pollard",
    "note": "",
    "rank": 147,
-   "posRank": 50,
+   "posRank": 49,
    "tier": 10,
    "valueVsAdp": -13.9
   },
@@ -3040,7 +3041,7 @@ window.DK_DATA = {
    "handcuffOf": null,
    "note": "",
    "rank": 149,
-   "posRank": 19,
+   "posRank": 20,
    "tier": 10,
    "valueVsAdp": -20.3
   },
@@ -3117,42 +3118,6 @@ window.DK_DATA = {
    "valueVsAdp": -26.6
   },
   {
-   "id": "dalton-schultz",
-   "name": "Dalton Schultz",
-   "team": "HOU",
-   "pos": "TE",
-   "bye": 8,
-   "yahooAdp": 126.7,
-   "altAdp": 188.8,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "",
-   "rank": 154,
-   "posRank": 20,
-   "tier": 10,
-   "valueVsAdp": -27.3
-  },
-  {
-   "id": "isiah-pacheco",
-   "name": "Isiah Pacheco",
-   "team": "DET",
-   "pos": "RB",
-   "bye": 6,
-   "yahooAdp": 125.8,
-   "altAdp": 188.8,
-   "flags": [
-    "sleeper"
-   ],
-   "injury": null,
-   "handcuffOf": "Jahmyr Gibbs",
-   "note": "Signed w/ DET; Gibbs handcuff w/ instant value if Gibbs misses time",
-   "rank": 155,
-   "posRank": 51,
-   "tier": 10,
-   "valueVsAdp": -29.2
-  },
-  {
    "id": "skyler-bell",
    "name": "Skyler Bell",
    "team": "BUF",
@@ -3164,7 +3129,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 156,
+   "rank": 154,
    "posRank": 62,
    "tier": 10,
    "valueVsAdp": null
@@ -3181,10 +3146,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 157,
-   "posRank": 52,
+   "rank": 155,
+   "posRank": 50,
    "tier": 10,
-   "valueVsAdp": -27.4
+   "valueVsAdp": -25.4
   },
   {
    "id": "kenyon-sadiq",
@@ -3200,10 +3165,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "2026 rookie TE (NYJ)",
-   "rank": 158,
+   "rank": 156,
    "posRank": 21,
    "tier": 10,
-   "valueVsAdp": -28
+   "valueVsAdp": -26
   },
   {
    "id": "keaton-mitchell",
@@ -3219,10 +3184,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Omarion Hampton",
    "note": "",
-   "rank": 159,
-   "posRank": 53,
+   "rank": 157,
+   "posRank": 51,
    "tier": 10,
-   "valueVsAdp": -27.3
+   "valueVsAdp": -25.3
   },
   {
    "id": "aj-barner",
@@ -3236,10 +3201,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 160,
+   "rank": 158,
    "posRank": 22,
    "tier": 10,
-   "valueVsAdp": -34.7
+   "valueVsAdp": -32.7
   },
   {
    "id": "tank-bigsby",
@@ -3253,10 +3218,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Saquon Barkley",
    "note": "",
-   "rank": 161,
-   "posRank": 54,
+   "rank": 159,
+   "posRank": 52,
    "tier": 10,
-   "valueVsAdp": -31.1
+   "valueVsAdp": -29.1
   },
   {
    "id": "tre-tucker",
@@ -3270,7 +3235,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 162,
+   "rank": 160,
    "posRank": 63,
    "tier": 10,
    "valueVsAdp": null
@@ -3287,7 +3252,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 163,
+   "rank": 161,
    "posRank": 23,
    "tier": 10,
    "valueVsAdp": null
@@ -3304,10 +3269,27 @@ window.DK_DATA = {
    "injury": "Colts starter - re-signed 2-yr deal; recovering from Dec 2025 Achilles tear",
    "handcuffOf": null,
    "note": "Re-signed w/ IND off Dec Achilles tear; job is his, late QB2",
-   "rank": 164,
+   "rank": 162,
    "posRank": 24,
    "tier": 10,
-   "valueVsAdp": -37.1
+   "valueVsAdp": -35.1
+  },
+  {
+   "id": "kaelon-black",
+   "name": "Kaelon Black",
+   "team": "SF",
+   "pos": "RB",
+   "bye": 8,
+   "yahooAdp": 185.0,
+   "altAdp": 196.9,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Won the SF RB2 job behind CMC per preseason tape — the CMC handcuff now",
+   "rank": 163,
+   "posRank": 53,
+   "tier": 10,
+   "valueVsAdp": 22.0
   },
   {
    "id": "jerry-jeudy",
@@ -3321,7 +3303,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 165,
+   "rank": 164,
    "posRank": 64,
    "tier": 10,
    "valueVsAdp": null
@@ -3340,10 +3322,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 166,
+   "rank": 165,
    "posRank": 65,
    "tier": 10,
-   "valueVsAdp": -37.1
+   "valueVsAdp": -36.1
   },
   {
    "id": "fernando-mendoza",
@@ -3359,10 +3341,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Redraft fade; dynasty/superflex stash only",
-   "rank": 167,
+   "rank": 166,
    "posRank": 25,
    "tier": 10,
-   "valueVsAdp": -48
+   "valueVsAdp": -47
   },
   {
    "id": "eli-raridon",
@@ -3378,7 +3360,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 168,
+   "rank": 167,
    "posRank": 24,
    "tier": 10,
    "valueVsAdp": null
@@ -3395,10 +3377,27 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Quinshon Judkins",
    "note": "",
+   "rank": 168,
+   "posRank": 54,
+   "tier": 10,
+   "valueVsAdp": -38.2
+  },
+  {
+   "id": "alvin-kamara",
+   "name": "Alvin Kamara",
+   "team": "NO",
+   "pos": "RB",
+   "bye": 8,
+   "yahooAdp": 125.9,
+   "altAdp": 166.3,
+   "flags": [],
+   "injury": "MCL sprain — out ~a month",
+   "handcuffOf": "Travis Etienne Jr.",
+   "note": "Could miss all 3 September games; zero for the first month",
    "rank": 169,
    "posRank": 55,
    "tier": 11,
-   "valueVsAdp": -39.2
+   "valueVsAdp": -43.1
   },
   {
    "id": "cyrus-allen",
@@ -3437,6 +3436,23 @@ window.DK_DATA = {
    "valueVsAdp": -44.2
   },
   {
+   "id": "terrance-ferguson",
+   "name": "Terrance Ferguson",
+   "team": "LAR",
+   "pos": "TE",
+   "bye": 11,
+   "yahooAdp": 166.0,
+   "altAdp": 206.5,
+   "flags": [],
+   "injury": null,
+   "handcuffOf": null,
+   "note": "Climbing on camp buzz despite a crowded LAR TE room",
+   "rank": 172,
+   "posRank": 25,
+   "tier": 11,
+   "valueVsAdp": -6.0
+  },
+  {
    "id": "bryce-young",
    "name": "Bryce Young",
    "team": "CAR",
@@ -3448,10 +3464,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 172,
+   "rank": 173,
    "posRank": 26,
    "tier": 11,
-   "valueVsAdp": -50.6
+   "valueVsAdp": -51.6
   },
   {
    "id": "brenen-thompson",
@@ -3467,7 +3483,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 173,
+   "rank": 174,
    "posRank": 67,
    "tier": 11,
    "valueVsAdp": null
@@ -3484,10 +3500,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 174,
+   "rank": 175,
    "posRank": 68,
    "tier": 11,
-   "valueVsAdp": -53.7
+   "valueVsAdp": -54.7
   },
   {
    "id": "cam-ward",
@@ -3501,27 +3517,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 175,
+   "rank": 176,
    "posRank": 27,
    "tier": 11,
-   "valueVsAdp": -50.4
-  },
-  {
-   "id": "terrance-ferguson",
-   "name": "Terrance Ferguson",
-   "team": "LAR",
-   "pos": "TE",
-   "bye": 11,
-   "yahooAdp": 127.1,
-   "altAdp": 206.5,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "",
-   "rank": 176,
-   "posRank": 25,
-   "tier": 11,
-   "valueVsAdp": -48.9
+   "valueVsAdp": -51.4
   },
   {
    "id": "kayshon-boutte",
@@ -3563,16 +3562,16 @@ window.DK_DATA = {
    "team": "WAS",
    "pos": "TE",
    "bye": 7,
-   "yahooAdp": 126.5,
+   "yahooAdp": 170.0,
    "altAdp": 192.2,
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "Data shows WAS in 2026 (was TEN)",
+   "note": "Diggs signing narrows the WAS target path; TE21 and drifting",
    "rank": 179,
    "posRank": 27,
    "tier": 11,
-   "valueVsAdp": -52.5
+   "valueVsAdp": -9.0
   },
   {
    "id": "aaron-rodgers",
@@ -3722,33 +3721,16 @@ window.DK_DATA = {
    "team": "GB",
    "pos": "RB",
    "bye": 11,
-   "yahooAdp": null,
+   "yahooAdp": 209.0,
    "altAdp": null,
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "Traded PIT→GB cutdown day; Lloyd insurance in suddenly open backfield",
+   "note": "Jacobs insurance in GB, but Lloyd is the preferred back",
    "rank": 188,
    "posRank": 59,
    "tier": 11,
-   "valueVsAdp": null
-  },
-  {
-   "id": "kaelon-black",
-   "name": "Kaelon Black",
-   "team": "SF",
-   "pos": "RB",
-   "bye": 8,
-   "yahooAdp": 130.6,
-   "altAdp": 196.9,
-   "flags": [],
-   "injury": null,
-   "handcuffOf": null,
-   "note": "",
-   "rank": 189,
-   "posRank": 60,
-   "tier": 11,
-   "valueVsAdp": -58.4
+   "valueVsAdp": 21.0
   },
   {
    "id": "braelon-allen",
@@ -3762,10 +3744,10 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": "Breece Hall",
    "note": "",
-   "rank": 190,
-   "posRank": 61,
+   "rank": 189,
+   "posRank": 60,
    "tier": 11,
-   "valueVsAdp": -61.7
+   "valueVsAdp": -60.7
   },
   {
    "id": "jauan-jennings",
@@ -3778,11 +3760,11 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "⚠ sources conflict on team (MIN vs SF) — verify before drafting",
-   "rank": 191,
+   "note": "Verified: signed 1-yr w/ MIN in May (left SF in FA); depth role",
+   "rank": 190,
    "posRank": 73,
    "tier": 11,
-   "valueVsAdp": -64.8
+   "valueVsAdp": -63.8
   },
   {
    "id": "malik-washington",
@@ -3796,7 +3778,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 192,
+   "rank": 191,
    "posRank": 74,
    "tier": 11,
    "valueVsAdp": null
@@ -3813,10 +3795,10 @@ window.DK_DATA = {
    "injury": "opens on IR (foot) — out 4+ games",
    "handcuffOf": null,
    "note": "Allgeier leads ARI early",
-   "rank": 193,
-   "posRank": 62,
+   "rank": 192,
+   "posRank": 61,
    "tier": 11,
-   "valueVsAdp": -67.2
+   "valueVsAdp": -66.2
   },
   {
    "id": "justin-joly",
@@ -3830,7 +3812,7 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 194,
+   "rank": 193,
    "posRank": 30,
    "tier": 11,
    "valueVsAdp": null
@@ -3849,10 +3831,29 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "",
-   "rank": 195,
+   "rank": 194,
    "posRank": 75,
    "tier": 11,
    "valueVsAdp": null
+  },
+  {
+   "id": "isiah-pacheco",
+   "name": "Isiah Pacheco",
+   "team": "DET",
+   "pos": "RB",
+   "bye": 6,
+   "yahooAdp": 125.8,
+   "altAdp": 188.8,
+   "flags": [
+    "sleeper"
+   ],
+   "injury": "IR (back) — out first 4 games",
+   "handcuffOf": "Jahmyr Gibbs",
+   "note": "Jacob Saylors is now the DET deep handcuff",
+   "rank": 195,
+   "posRank": 62,
+   "tier": 11,
+   "valueVsAdp": -69.2
   },
   {
    "id": "seth-mcgowan",
@@ -3887,74 +3888,6 @@ window.DK_DATA = {
    "posRank": 76,
    "tier": 11,
    "valueVsAdp": -72.4
-  },
-  {
-   "id": "ricky-pearsall",
-   "name": "Ricky Pearsall",
-   "team": "SF",
-   "pos": "WR",
-   "bye": 8,
-   "yahooAdp": 114.8,
-   "altAdp": 244.4,
-   "flags": [],
-   "injury": "OUT FOR SEASON — PCL surgery",
-   "handcuffOf": null,
-   "note": "Do not draft",
-   "rank": 401,
-   "posRank": 77,
-   "tier": 99,
-   "valueVsAdp": null
-  },
-  {
-   "id": "jayden-higgins",
-   "name": "Jayden Higgins",
-   "team": "HOU",
-   "pos": "WR",
-   "bye": 8,
-   "yahooAdp": 133,
-   "altAdp": 214.2,
-   "flags": [],
-   "injury": "OUT FOR SEASON — torn ACL",
-   "handcuffOf": null,
-   "note": "Do not draft; boosts Boutte/Noel behind Collins",
-   "rank": 402,
-   "posRank": 78,
-   "tier": 99,
-   "valueVsAdp": null
-  },
-  {
-   "id": "tyreek-hill",
-   "name": "Tyreek Hill",
-   "team": "FA",
-   "pos": "WR",
-   "bye": null,
-   "yahooAdp": 129.7,
-   "altAdp": 227.2,
-   "flags": [],
-   "injury": "unsigned FA — knee rehab",
-   "handcuffOf": null,
-   "note": "May not play in 2026; do not draft",
-   "rank": 403,
-   "posRank": 79,
-   "tier": 99,
-   "valueVsAdp": null
-  },
-  {
-   "id": "jaydon-blue",
-   "name": "Jaydon Blue",
-   "team": "FA",
-   "pos": "RB",
-   "bye": null,
-   "yahooAdp": 126,
-   "altAdp": 228.6,
-   "flags": [],
-   "injury": "waived by DAL, unclaimed",
-   "handcuffOf": null,
-   "note": "Off draft boards; Malik Davis won DAL RB2",
-   "rank": 404,
-   "posRank": 64,
-   "tier": 99,
-   "valueVsAdp": null
   },
   {
    "id": "brandon-aubrey",
@@ -4073,7 +4006,7 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "Ravens' young kicker, big leg, attached to a top scoring offense. RotoBaller #8, Yahoo #9. Bye 13."
+   "note": "Still BAL's K but shaky: 5-of-8 in preseason incl. 2 misses in the finale"
   },
   {
    "id": "evan-mcpherson",
@@ -4229,8 +4162,8 @@ window.DK_DATA = {
    "note": "Denver altitude boosts 50+ distance; solid Broncos offense. Bye 10."
   },
   {
-   "id": "blake-grupe",
-   "name": "Blake Grupe",
+   "id": "spencer-shrader",
+   "name": "Spencer Shrader",
    "team": "IND",
    "pos": "K",
    "bye": 13,
@@ -4243,7 +4176,7 @@ window.DK_DATA = {
    "flags": [],
    "injury": null,
    "handcuffOf": null,
-   "note": "With the Colts per 2026 sources; dome home (Lucas Oil), decent offense. Bye 13."
+   "note": "Won the IND job at final cuts (Grupe waived); dome home at Lucas Oil"
   },
   {
    "id": "tyler-bass",
@@ -4635,14 +4568,82 @@ window.DK_DATA = {
    "injury": null,
    "handcuffOf": null,
    "note": "Post-Garrett-trade pass rush is a question mark; fringe streamer only"
+  },
+  {
+   "id": "ricky-pearsall",
+   "name": "Ricky Pearsall",
+   "team": "SF",
+   "pos": "WR",
+   "bye": 8,
+   "yahooAdp": 114.8,
+   "altAdp": 244.4,
+   "flags": [],
+   "injury": "OUT FOR SEASON — PCL surgery",
+   "handcuffOf": null,
+   "note": "Do not draft",
+   "rank": 401,
+   "posRank": 77,
+   "tier": 99,
+   "valueVsAdp": null
+  },
+  {
+   "id": "jayden-higgins",
+   "name": "Jayden Higgins",
+   "team": "HOU",
+   "pos": "WR",
+   "bye": 8,
+   "yahooAdp": 133,
+   "altAdp": 214.2,
+   "flags": [],
+   "injury": "OUT FOR SEASON — torn ACL",
+   "handcuffOf": null,
+   "note": "Do not draft; boosts Boutte/Noel behind Collins",
+   "rank": 402,
+   "posRank": 78,
+   "tier": 99,
+   "valueVsAdp": null
+  },
+  {
+   "id": "tyreek-hill",
+   "name": "Tyreek Hill",
+   "team": "FA",
+   "pos": "WR",
+   "bye": null,
+   "yahooAdp": 129.7,
+   "altAdp": 227.2,
+   "flags": [],
+   "injury": "unsigned FA — knee rehab",
+   "handcuffOf": null,
+   "note": "May not play in 2026; do not draft",
+   "rank": 403,
+   "posRank": 79,
+   "tier": 99,
+   "valueVsAdp": null
+  },
+  {
+   "id": "jaydon-blue",
+   "name": "Jaydon Blue",
+   "team": "FA",
+   "pos": "RB",
+   "bye": null,
+   "yahooAdp": 126,
+   "altAdp": 228.6,
+   "flags": [],
+   "injury": "waived by DAL, unclaimed",
+   "handcuffOf": null,
+   "note": "Unclaimed, now on the Eagles' practice squad — off boards",
+   "rank": 404,
+   "posRank": 64,
+   "tier": 99,
+   "valueVsAdp": null
   }
  ],
  "handcuffs": [
   {
    "starter": "Jahmyr Gibbs",
-   "backup": "Isiah Pacheco",
+   "backup": "Jacob Saylors",
    "team": "DET",
-   "note": "Pure handcuff; Pacheco banged up in camp, Gibbs bell cow"
+   "note": "Pacheco on IR (back); Saylors is the deep-league handcuff"
   },
   {
    "starter": "Bijan Robinson",
@@ -4652,9 +4653,9 @@ window.DK_DATA = {
   },
   {
    "starter": "Christian McCaffrey",
-   "backup": "Jordan James",
+   "backup": "Kaelon Black",
    "team": "SF",
-   "note": "Pure handcuff; Kaelon Black also in the mix"
+   "note": "Black won the SF RB2 job per preseason tape (Jordan James behind)"
   },
   {
    "starter": "Jonathan Taylor",
@@ -4708,7 +4709,7 @@ window.DK_DATA = {
    "starter": "Ashton Jeanty",
    "backup": "Mike Washington Jr.",
    "team": "LV",
-   "note": "Pure handcuff, but Jeanty ankle injury puts Week 1 in question"
+   "note": "Priority cuff: Washington ran with the first team while Jeanty rehabs his ankle"
   },
   {
    "starter": "Josh Jacobs",
@@ -4744,7 +4745,7 @@ window.DK_DATA = {
    "starter": "Travis Etienne Jr.",
    "backup": "Alvin Kamara",
    "team": "NO",
-   "note": "Vet in reduced role; Devin Neal on IR"
+   "note": "Kamara out ~a month (MCL) — Etienne has the backfield to himself early"
   },
   {
    "starter": "Quinshon Judkins",
@@ -5263,7 +5264,7 @@ window.DK_DATA = {
    },
    {
     "r": 8,
-    "advice": "Lloyd (GB starter while Jacobs is out) is the prize if he lasts. Warren/Stevenson/Pollard stabilize your flex."
+    "advice": "Lloyd (confirmed GB starter while Jacobs is out — ADP 111, ranked 78 here) is the prize if he lasts. Warren/Stevenson/Pollard stabilize your flex."
    },
    {
     "r": 9,
@@ -5275,7 +5276,7 @@ window.DK_DATA = {
    },
    {
     "r": 11,
-    "advice": "Handcuff your RB1 (Corum for Kyren, Harvey for Dobbins — see Handcuffs sheet) or grab a rookie with a job (Lemon, Price)."
+    "advice": "Handcuff your RB1 (Corum for Kyren, Mike Washington for Jeanty, Kaelon Black for CMC — see Handcuffs sheet) or grab a rookie with a job (Lemon, Price)."
    },
    {
     "r": 12,
